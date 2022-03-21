@@ -59,8 +59,7 @@
         // And we return 'resutls'
         return results;
     }
-    // console.log(merge([5,2,9],[20,10,6,8]))
-    console.log(merge([2,5,9],[6,8,10,20]))
+    // console.log(merge([2,5,9],[6,8,10,20]))
 
 
 
@@ -83,7 +82,7 @@
         let mid = Math.floor(arr.length/2);
         let left = mergeSort(arr.slice(0,mid));
         let right = mergeSort(arr.slice(mid));
-        return merge(left, sright);
+        return merge(left, right);
     }
 
-mergeSort([10,24,76,73])
+console.log(mergeSort([5,2,9,20,10,6,8]))
