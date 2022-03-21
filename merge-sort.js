@@ -75,7 +75,9 @@
     // Once you have smaller sorted arrays, merge those arrays with other sorted arrays until you are back at the full
     // length of the array
     // Once the array has been merged back together, return the merged (and sorted!) array
-    // Recrusive Merge Sort
+   
+    // Create merger sort function that takes one array
+    // Let midpoint, let's just call it mid equal, matched up for just the same thing.
     function mergeSort(arr){
         if(arr.length <= 1) return arr;
         let mid = Math.floor(arr.length/2);
